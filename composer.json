@@ -1,0 +1,19 @@
+{
+    "name": "maliangbin/phpdoc",
+    "description": "Extracted from doc and save the pictures.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "马良彬",
+            "email": "maliangbin@hoge.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "phpdoc\\": "src/"
+        }
+    }
+}
