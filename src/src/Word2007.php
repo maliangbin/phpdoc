@@ -24,7 +24,7 @@ class Word2007 implements DocInterface{
     }
 
     public function saveImages($path){
-        if(is_dir($path)){
+        if(!is_dir($path)){
             mkdir($path,0777,true);
         }
         $return = array();
